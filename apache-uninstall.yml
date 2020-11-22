@@ -1,0 +1,6 @@
+- hosts: test
+  tasks:
+    - name: uninstall httpd
+      yum:
+        name: httpd
+        state: removed

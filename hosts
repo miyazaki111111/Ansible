@@ -1,0 +1,7 @@
+[test]
+192.168.10.11
+192.168.10.12
+
+[test:vars]
+ansible_user=root
+ansible_ssh_pass=VMware1!

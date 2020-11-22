@@ -1,0 +1,12 @@
+- hosts: test
+  tasks:
+    - name: install httpd
+      yum:
+        name: httpd
+        state: latest
+
+    - name: run httpd
+      service:
+        name: httpd
+        state: started
+        enabled: yes
